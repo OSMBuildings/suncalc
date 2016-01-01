@@ -3,7 +3,8 @@ suncalc
 =======
 
 This is a very reduced version of Vladimir Agafonkin's SunCalc library (https://github.com/mourner/suncalc).
-It got cloned for internal purposes of OSM Budlings. Contains code from getPosition() only.
+
+It got cloned for shadow calculation of OSM Buildings. Contains code from getPosition() only.
 
 --
 
