@@ -4,7 +4,7 @@ suncalc
 
 This is a very reduced version of Vladimir Agafonkin's SunCalc library (https://github.com/mourner/suncalc).
 
-It got cloned for shadow calculation of OSM Buildings. Contains code from getPosition() only.
+A clone for shadow calculation of OSM Buildings. Contains code from getPosition() only.
 
 --
 
@@ -21,17 +21,10 @@ You can read about different twilight phases calculated by SunCalc
 in the [Twilight article on Wikipedia](http://en.wikipedia.org/wiki/Twilight).
 
 
-## Usage example
+## Usage
 
 ```javascript
-// get position of the sun (azimuth and altitude) at today's sunrise
-var pos = suncalc(datetime, 51.5, -0.1);
-```
-
-### Sun position
-
-```javascript
-suncalc(/*Date*/ timeAndDate, /*Number*/ latitude, /*Number*/ longitude)
+suncalc(timeAndDate, latitude, longitude)
 ```
 Returns an object with the following properties:
 
