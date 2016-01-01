@@ -1,10 +1,11 @@
 
-SunCalc
+suncalc
 =======
 
-This is an extremely stripped down version of Vladimir Agafonkin's SunCalc library (https://github.com/mourner/suncalc).
+This is a very reduced version of Vladimir Agafonkin's SunCalc library (https://github.com/mourner/suncalc).
 It got cloned for internal purposes of OSM Budlings. Contains code from getPosition() only.
 
+--
 
 SunCalc is a tiny BSD-licensed JavaScript library for calculating sun position,
 sunlight phases (times for sunrise, sunset, dusk, etc.),
@@ -23,7 +24,7 @@ in the [Twilight article on Wikipedia](http://en.wikipedia.org/wiki/Twilight).
 
 ```javascript
 // get position of the sun (azimuth and altitude) at today's sunrise
-var sunrisePos = suncalc(datetime, 51.5, -0.1);
+var pos = suncalc(datetime, 51.5, -0.1);
 ```
 
 ### Sun position
